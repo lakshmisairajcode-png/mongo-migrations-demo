@@ -11,7 +11,7 @@ db.getCollection("document_types").updateOne(
   { 
     $set: { 
       code: "CPT", 
-      label: "SYMESUM", 
+      label: "sai", 
       active: true, 
       name: "sai",
       updatedAt: new Date() 
