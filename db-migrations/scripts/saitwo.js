@@ -1,5 +1,5 @@
 const changelog = "migration_changelog";
-const id = "20251206_update_cpt_label_to_sai_v1";
+const id = "20251206_update_ccpt_label_to_sai_v1";
 
 if (db.getCollection(changelog).findOne({ id })) {
   print("Already applied:", id);
