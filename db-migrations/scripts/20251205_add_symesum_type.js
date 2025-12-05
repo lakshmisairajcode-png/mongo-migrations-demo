@@ -13,6 +13,7 @@ db.getCollection("document_types").updateOne(
       code: "CPT", 
       label: "SYMESUM", 
       active: true, 
+      name: "sai",
       updatedAt: new Date() 
     } 
   },
